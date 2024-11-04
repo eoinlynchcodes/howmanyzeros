@@ -7,8 +7,9 @@ function App() {
       <h1>How Many Zeros?</h1>
       <p>Ireland</p>
 
-      <div>
+      <div className="bandcamp">
         <iframe
+          title="How Many Zeros? - Output"
           src="https://bandcamp.com/EmbeddedPlayer/track=3306867031/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/"
           seamless
         >
@@ -19,7 +20,7 @@ function App() {
       </div>
 
       <div>
-        <iframe src="https://bandcamp.com/band_follow_button_deluxe/506512362" />
+        <iframe title="How Many Zeros? - Follow" src="https://bandcamp.com/band_follow_button_deluxe/506512362" />
       </div>
     </div>
   );
