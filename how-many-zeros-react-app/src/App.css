@@ -1,38 +1,60 @@
+/* @font-face {
+  font-family: 'Akkurat Std';
+  src: url('./fonts/AkkuratStd-Regular.woff2') format('woff2'),
+       url('./fonts/AkkuratStd-Regular.woff') format('woff'),
+       url('./fonts/AkkuratStd-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+} */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
 .App {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #333;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p {
+  font-size: 1.2rem;
+  color: #666;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+iframe {
+  width: 100%;
+  height: 120px; /* Adjust height as needed */
+  border: none;
+  margin: 20px 0;
+  border-radius: 8px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+div {
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #0687f5;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a:hover {
+  text-decoration: underline;
 }
